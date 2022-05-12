@@ -1,2 +1,19 @@
 # PolyFm
 My First VST written in C++ using the Juce Framework. 5-Voice Polyphonic FM Synthesizer
+
+# Oscillator
+The oscillator section includes a drop-down menu to switch between Sine, Saw and Square waves. The oscillator also includes an FM Frequency and FM Depth dial. The frequency modulation wave currently is fixed as a Sine. The FM Depth is in terms of frequency (Depth = 100 results in frequency modulation of +/- 100hz)
+
+# Envelope
+The envelope section is a basic four part linear ADSR. Attack, Decay, Sustain and Release dials adjust these paramaters (in Seconds)
+
+# Filter
+The filter contains a drop-down menu to switch between low-pass, high-pass and band-pass filters (Known Bug: Filter defaults to low-pass but menu does not display any text). Filter Frequency is adjustable from 20Hz-20kHz. Filter resonance is adjustable from 0-10. 
+
+# Gain
+An overall gain (0...1) is provided at the right hand side of the screen
+
+# Background/Future Development
+This synth is my first attempt at coding a VST synth. It's initial form seen here is a relatively basic FM synthesizer. I used a combination of information from tutorials on https://juce.com/learn/tutorials. Videos by https://www.youtube.com/c/TheAudioProgrammer and https://www.youtube.com/channel/UCwEc_CsAk3ky7sX_yg6bSSg were also highly useful during this learning process. 
+
+I plan on continuing the development of this VST. Some of my current goals include: Adjusting the value skews on various dials (specifically filter frequency) to allow for more fine controll in the lower ranges, Adding an LFO and a second envelope for the filter, adding a variety of presets. As more of a long-term goal, I plan to add microtonal capabilities to the plugin, allowing for custom scales and custom midi mapping. 
