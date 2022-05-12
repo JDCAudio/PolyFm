@@ -3,6 +3,7 @@ My First VST written in C++ using the Juce Framework. 5-Voice Polyphonic FM Synt
 
 # Downloading
 https://www.dropbox.com/sh/qswjzlqjt3jh8sl/AACIqkZJ5sEmEjhSwm8ooSzCa?dl=0
+
 The dropbox link above will bring you to a folder containing PolyFM.a, .component, .vst3 and .app files. The .app standalone application currently only works on MacOS. Installation process for the other files is similar to any other standard plugin (ex: C:\Program Files\Common Files\VST3 (windows) Library/Audio/Plug-ins/VST3 (mac))
 Once the plugin is in the correct folder, upon trying to load in a DAW you should be prompted to trust the developer, after accepting this, the plugin should load and run in a DAW of your choice.
 
