@@ -7,6 +7,8 @@ https://www.dropbox.com/sh/qswjzlqjt3jh8sl/AACIqkZJ5sEmEjhSwm8ooSzCa?dl=0
 The dropbox link above will bring you to a folder containing PolyFM.a, .component, .vst3 and .app files. The .app standalone application currently only works on MacOS. Installation process for the other files is similar to any other standard plugin (ex: C:\Program Files\Common Files\VST3 (windows) Library/Audio/Plug-ins/VST3 (mac))
 Once the plugin is in the correct folder, upon trying to load in a DAW you should be prompted to trust the developer, after accepting this, the plugin should load and run in a DAW of your choice.
 
+Alternatively, I have included all source files and the Projucer project. If familiar with Projucer, the project can be opened and compiled with the desired release targets to generate the version of the plug-in that you are interested in installing. 
+
 # Oscillator
 The oscillator section includes a drop-down menu to switch between Sine, Saw and Square waves. The oscillator also includes an FM Frequency and FM Depth dial. The frequency modulation wave currently is fixed as a Sine. The FM Depth is in terms of frequency (Depth = 100 results in frequency modulation of +/- 100hz)
 
